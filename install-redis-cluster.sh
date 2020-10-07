@@ -55,7 +55,6 @@ sudo chmod 770 /var/lib/redis
 
 sudo cp conf/service/redis-server.service /etc/systemd/system/redis-server.service
 
-#If master ip equals to current ip then currently machine is master machine
 echo "======================================================"
 echo "SERVICE STARTING..."
 echo "======================================================"
